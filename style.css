@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #87ceeb;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.character {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('characters/gangster_1/placeholder_character_walk_rightside.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform-origin: center;
+}

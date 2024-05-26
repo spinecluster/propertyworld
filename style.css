@@ -20,8 +20,8 @@ body {
 
 .character {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 90px;
+    height: 90px;
     background-image: url('characters/gangster_1/placeholder_character_walk_rightside.png');
     background-size: cover;
     background-repeat: no-repeat;
